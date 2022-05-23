@@ -24,13 +24,15 @@
                 FontSize="32"
                 HorizontalOptions="Center" />
 
-            <Label 
+            <Editor
+                
                 Text="Welcome to .NET Multi-platform App UI"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
+                MinimumHeightRequest="100"
                 x:Name="qrResult"
-                HorizontalOptions="Center" />
+                HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
 
             <Button 
                 x:Name="CounterBtn"
